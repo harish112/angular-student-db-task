@@ -1,0 +1,20 @@
+/* Add application styles & imports to this file! */
+@import '~bootstrap/dist/css/bootstrap.min.css';
+.title {
+  background-color: lightseagreen;
+  font-weight: bolder;
+}
+body {
+  font-family: 'Courier New', Courier, monospace;
+}
+h4 {
+  background-color: lightseagreen;
+}
+.col {
+  color: black;
+}
+.columnspan {
+  border-color: lightslategray;
+  height: 80vh;
+  border-style: solid;
+}

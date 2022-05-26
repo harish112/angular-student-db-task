@@ -1,0 +1,49 @@
+<h4 class="text-center">Student Details</h4>
+
+<div class="container">
+  <table class="table table-dark table-responsive">
+    <thead>
+      <tr>
+        <td>Profile</td>
+        <td>Result</td>
+      </tr>
+    </thead>
+    <tr class="col">
+      <td>Student Name</td>
+      <td>{{ studentName }}</td>
+    </tr>
+    <tr class="col">
+      <td>Student Number</td>
+      <td>{{ studentId }}</td>
+    </tr>
+    <tr class="col">
+      <td>Student College</td>
+      <td>{{ studentCollege }}</td>
+    </tr>
+    <tr class="col">
+      <td>City</td>
+      <td>{{ studentCity }}</td>
+    </tr>
+    <tr class="col">
+      <td>State</td>
+      <td>{{ studentState }}</td>
+    </tr>
+    <tr class="col">
+      <td>Pincode</td>
+      <td>{{ studentPincode }}</td>
+    </tr>
+    <tr class="col text-center">
+      <td colspan="2">
+        <button
+          class="btn btn-success"
+          data-toggle="popover"
+          data-bs-container="body"
+          data-bs-placement="left"
+          data-bs-content="Printing....."
+        >
+          Print
+        </button>
+      </td>
+    </tr>
+  </table>
+</div>
